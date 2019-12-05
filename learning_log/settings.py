@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*o2j7th7474tzv_3b9$2!sbdo+(d3qi5quyi0ss8f0f)-p5zm%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ancient-shelf-57473.herokuapp.com/']
 
 
 # Application definition
