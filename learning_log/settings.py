@@ -60,6 +60,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates'),
                  os.path.join(BASE_DIR, 'learning_log/templates')],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
